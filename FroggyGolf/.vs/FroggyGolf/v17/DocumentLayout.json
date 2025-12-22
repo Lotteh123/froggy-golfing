@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|c:\\users\\lotte\\unityprojects\\froggy-golfing\\froggygolf\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|c:\\users\\lotte\\unityprojects\\froggy-golfing\\froggygolf\\assets\\scripts\\lineforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lineforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|c:\\users\\lotte\\unityprojects\\froggy-golfing\\froggygolf\\assets\\scripts\\goalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\assets\\scripts\\goalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ECAB1FA-11D8-EB9B-0A5E-EF15C162E121}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:31:13.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LineForce.cs",
               "DocumentMoniker": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\Assets\\Scripts\\LineForce.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LineForce.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GoalCheck.cs",
               "DocumentMoniker": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\Assets\\Scripts\\GoalCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GoalCheck.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GoalCheck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T17:10:31.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T17:10:31.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HoleMask.shader",
               "DocumentMoniker": "C:\\Users\\lotte\\UnityProjects\\froggy-golfing\\FroggyGolf\\Assets\\Art\\Shader\\HoleMask.shader",
               "RelativeDocumentMoniker": "Assets\\Art\\Shader\\HoleMask.shader",
