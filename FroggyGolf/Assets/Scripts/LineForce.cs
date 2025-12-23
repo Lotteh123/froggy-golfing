@@ -8,11 +8,13 @@ public class LineForce : MonoBehaviour
 
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Collider GoalCollider;
+    [SerializeField] private Animator animator;
 
     private bool isIdle;
     private bool isAiming;
 
     private Rigidbody rbody;
+
 
     private void Awake()
     {
@@ -90,6 +92,8 @@ public class LineForce : MonoBehaviour
         rbody.velocity = Vector3.zero;
         rbody.angularVelocity = Vector3.zero;
         isIdle = true;
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+        animator.SetTrigger("Bounce");
     }
 
     private Vector3? CastMouseClickRay()
