@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bug2e7i6wbv88"]
+
+[ext_resource type="PackedScene" uid="uid://bvily2mqqnrwb" path="res://Assets/Scenes/Frog.tscn" id="1_ykkvw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ykkvw"]
+
+[node name="Level1" type="Node3D" unique_id=740449739]
+
+[node name="Frog" parent="." unique_id=1400031541 instance=ExtResource("1_ykkvw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1188135, 0)
+
+[node name="Shapes" type="CSGCombiner3D" parent="." unique_id=390317655]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Shapes" unique_id=828472265]
+transform = Transform3D(5.7068596, 0, 0, 0, 0.27608508, 0, 0, 0, 5.7068596, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1430482354]
+transform = Transform3D(3.6584828, 0, 0, 0, 3.6584828, 0, 0, 0, 3.6584828, 0, -1.6559544, 0)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=564571552]
+transform = Transform3D(5.699677, 0, 0, 0, 0.2775393, 0, 0, 0, 5.699677, 0, 0, 0)
+shape = SubResource("BoxShape3D_ykkvw")

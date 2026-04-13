@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://b1i8j1u14u4ys"]
+
+[ext_resource type="PackedScene" uid="uid://qbq1s8qj2d5c" path="res://Assets/3D/forg.glb" id="1_ki48f"]
+
+[node name="forg" unique_id=240264368 instance=ExtResource("1_ki48f")]
